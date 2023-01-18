@@ -35,3 +35,6 @@ body{
     height: 50px;
     width: 100%;
     position: relative;
+    display: flow-root;
+  justify-content: center;
+}
