@@ -38,3 +38,12 @@ body{
     display: flex;
   justify-content: center;
 }
+
+.nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
