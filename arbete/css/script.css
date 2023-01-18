@@ -49,3 +49,15 @@ body{
     color: #fff;
     padding: 10px 10px 10px 10px;
 }
+
+.nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
