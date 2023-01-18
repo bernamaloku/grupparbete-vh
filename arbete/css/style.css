@@ -20,3 +20,12 @@ html{
   background: radial-gradient(#b2caea, #4ab8f8);
 }
 
+#names{
+    display: grid;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
