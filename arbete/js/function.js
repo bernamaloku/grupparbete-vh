@@ -31,5 +31,23 @@ let weather = {
         document.querySelector(".wind").innerText =
             "Wind speed: " + speed + " km/h";
         document.querySelector(".weather").classList.remove("loading");
-    }
+    },
+    search: function () {
+        this.fetchWeather(document.querySelector(".search-bar").value);
+    },
 };
+
+document.querySelector(".search button").addEventListener("click", function () {
+    weather.search();
+});
+
+
+document
+    .querySelector(".search-bar")
+    .addEventListener("keyup", function (event) {
+        if (event.key == "Enter") {
+            weather.search();
+        }
+    });
+
+weather.fetchWeather("Malmö");
