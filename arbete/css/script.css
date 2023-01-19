@@ -149,3 +149,17 @@ body{
     justify-content: center;
     align-items: center;
   }
+.card,
+.card2,
+.card3,
+.card4 {
+  background-image: url("https://i.ytimg.com/vi/bIpzLC-c6Qo/maxresdefault.jpg");
+  color: rgb(20, 3, 3);
+  border-radius: 30px;
+  padding: 3em;
+  width: 100%;
+  max-width: 420px;
+  margin: 1rem;
+  margin-top: 5rem;
+  
+}
