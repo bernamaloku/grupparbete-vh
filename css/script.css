@@ -148,10 +148,22 @@ body {
 
 #function-body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+#home-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
 .card,
 .card2,
 .card3,
@@ -164,15 +176,6 @@ body {
   max-width: 420px;
   margin: 1rem;
   margin-top: 5rem;
-}
-#twocards {
-  display: flex;
-  justify-content: space-around;
-}
-
-#othercards {
-  display: flex;
-  justify-content: space-around;
 }
 
 .search {
@@ -260,4 +263,3 @@ h1.temp {
   font-weight: bolder;
   color: rgb(16, 50, 98);
 }
-
