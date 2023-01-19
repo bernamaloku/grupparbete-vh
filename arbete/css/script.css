@@ -142,7 +142,8 @@ body{
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-  }
+  };
+  
   #function-body {
     display: flex;
     flex-direction: column;
