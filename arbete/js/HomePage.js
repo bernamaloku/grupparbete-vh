@@ -1,4 +1,3 @@
-/*belula*/ 
 
 let weather = {
     apiKey: "2e27da28ee464709326343fb9e56ad73",
@@ -40,11 +39,8 @@ let weather = {
 
 
 
-weather.fetchWeather("Malmö");
+weather.fetchWeather("Malmö"); 
 
-+weather.fetchWeather("malmo");
- 
-// ZJ
 let weather2= {
     apiKey: "2e27da28ee464709326343fb9e56ad73",
     fetchWeather: function (city) {
@@ -119,8 +115,6 @@ let weather3= {
             "Wind speed: " + speed + " km/h";
     },
 };
-
-weather.fetchWeather("Malmö");
 weather3.fetchWeather("gothenburg");
  
 let weather4= {
