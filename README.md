@@ -18,10 +18,16 @@ A simple weather app that displays the current weather conditions for a specifie
 3. Search for a location by city name. 
 4. View current weather conditions for 4 cities (Malmo, Stockholm, Gothenburg and Copenhagen). 
 
+
 ### Requirements
 - iOS 11.0 or later / Android 4.4 and up. 
 - Internet connection. 
 
+### Problems
+1. Please make sure you have written in the right city (in English - no special signs ex. öäå).
+2. App doesn't work without internet so make sure your internet connection is on.
+
+***
 ### Support
 If you encounter any issues or have any questions, please contact us at support@openweatherapp.com.
 
