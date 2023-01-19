@@ -78,6 +78,28 @@ body{
     display: none;
   }
   
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+  }
+  .email, .first-name, .last-name {
+    width: 60%;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    height: 2rem;
+    text-align: left;
+  }
+  
+  .message {
+    width: 60%;
+    height: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+  }
+  
 
   @media (max-width: 600px) {
     .nav > .nav-btn {
