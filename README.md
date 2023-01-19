@@ -1,4 +1,4 @@
-# OpenWeather App
+# Weather App Swe
 A simple weather app that displays the current weather conditions for a specified location.
 
 ### Features
