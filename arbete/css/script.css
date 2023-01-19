@@ -163,3 +163,30 @@ body{
   margin-top: 5rem;
   
 }
+#twocards {
+  display: flex;
+  justify-content: space-around;
+}
+
+#othercards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
