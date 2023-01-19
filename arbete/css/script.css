@@ -100,9 +100,8 @@ body{
     border-radius: 7px;
   }
   
-
   @media (max-width: 600px) {
-    .nav > .nav-btn {
+    .nav > .nav-btn{
       display: inline-block;
       position: absolute;
       right: 0px;
@@ -114,6 +113,7 @@ body{
       height: 50px;
       padding: 13px;
     }
+  
     .nav > .nav-btn > label > span {
       display: block;
       width: 25px;
