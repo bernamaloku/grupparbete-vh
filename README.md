@@ -21,7 +21,6 @@ A simple weather app that displays the current weather conditions for a specifie
 ### (some) Code explained
 
 The "nav-btn" element contains a "label" element with a "for" attribute that matches the "id" of the checkbox.
-
 Inside the "label" element, there are three "span" elements, these "span" elements will be used to create the toggle button icon.
 
 ```html
