@@ -18,6 +18,28 @@ A simple weather app that displays the current weather conditions for a specifie
 3. Search for a location by city name. 
 4. View current weather conditions for 4 cities (Malmo, Stockholm, Gothenburg and Copenhagen). 
 
+### (some) Code explained
+
+```javascript 
+let weather = {
+    apiKey: "yourApiKey",
+    fetchWeather: function (city) {
+        fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=" +
+            city +
+            "&units=metric&appid=" +
+            this.apiKey
+        )
+            .then((response) => {
+                if (!response.ok) {
+                    alert("No weather found.");
+                    throw new Error("No weather found.");
+                }
+                return response.json();
+            })
+            .then((data) => this.displayWeather(data));
+    }
+    ``` 
 
 ### Requirements
 - iOS 11.0 or later / Android 4.4 and up. 
@@ -35,7 +57,7 @@ If you encounter any issues or have any questions, please contact us at support@
 This app uses OpenWeatherMap API to retrieve weather data. By using this app, you are agreeing to the OpenWeatherMap API terms of service.
 This app allows users to view current weather conditions and forecast for a specific location.
 
-*** 
+
 
 
 
