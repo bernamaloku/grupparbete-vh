@@ -24,7 +24,7 @@ A simple weather app that displays the current weather conditions for a specifie
 - Internet connection. 
 
 ### Problems
-1. Please make sure you have written in the right city (in English - no special signs ex. öäå).
+1. Please make sure you have written in the right city  ***(in English - no special signs ex. öäå)*** .
 2. App doesn't work without internet so make sure your internet connection is on.
 
 ***
