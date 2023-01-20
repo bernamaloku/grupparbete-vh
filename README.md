@@ -20,7 +20,7 @@ A simple weather app that displays the current weather conditions for a specifie
 
 ### (some) Code explained
 
-```javascript 
+```js 
 let weather = {
     apiKey: "yourApiKey",
     fetchWeather: function (city) {
@@ -38,8 +38,8 @@ let weather = {
                 return response.json();
             })
             .then((data) => this.displayWeather(data));
-    }
-    ``` 
+    }}
+``` 
 
 ### Requirements
 - iOS 11.0 or later / Android 4.4 and up. 
