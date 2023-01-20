@@ -89,6 +89,16 @@ let weather = {
 - iOS 11.0 or later / Android 4.4 and up.
 - Internet connection.
 
+### Mock Up 
+
+![mockupFINISHHHH](https://user-images.githubusercontent.com/106542048/213654760-65d4ae78-0b12-4a79-a7f4-b20efa3af6e0.png)
+
+### Wireframe
+
+![Frame](https://user-images.githubusercontent.com/106542048/213654804-defd5cfd-994f-4366-9e37-196f39f084cf.png)
+![Frame-1](https://user-images.githubusercontent.com/106542048/213654820-723f84a4-3bd0-437c-b899-0c02ce35169b.png)
+
+
 ### Problems
 
 1. Please make sure you have written in the right city **_(in English - no special signs ex. öäå)_** .
