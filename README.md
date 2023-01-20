@@ -91,7 +91,8 @@ let weather = {
 
 ### Mock Up 
 
-![mockupFINISHHHH](https://user-images.githubusercontent.com/106542048/213654760-65d4ae78-0b12-4a79-a7f4-b20efa3af6e0.png)
+![mockupfinished](https://user-images.githubusercontent.com/106542048/213654921-bc9ead8c-e3a1-4b31-b8db-332cb6cb1fe3.png)
+
 
 ### Wireframe
 
