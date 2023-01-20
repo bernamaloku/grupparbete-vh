@@ -20,6 +20,21 @@ A simple weather app that displays the current weather conditions for a specifie
 
 ### (some) Code explained
 
+The "nav-btn" element contains a "label" element with a "for" attribute that matches the "id" of the checkbox.
+
+Inside the "label" element, there are three "span" elements, these "span" elements will be used to create the toggle button icon.
+
+```html
+ <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            ```
+
+
+
 This code defines a JavaScript object called "weather" that has two properties: "apiKey" and "fetchWeather". The "apiKey" property is set to a string "yourApiKey", which should be replaced with a valid API key from OpenWeatherMap. The "fetchWeather" property is a function that takes a single argument called "city".
 This function uses the Fetch API to make a GET request to the OpenWeatherMap API, passing in the city as a parameter and appending the apiKey property of the weather object. If the response from the API is not OK, it will display an alert with "No weather found." and throw an error with the same message. If the response is OK, the function will parse the response as JSON and call the "displayWeather" function passing the data as an argument.
 
