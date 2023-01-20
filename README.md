@@ -105,11 +105,13 @@ let weather = {
 1. Please make sure you have written in the right city **_(in English - no special signs ex. öäå)_** .
 2. App doesn't work without internet so make sure your internet connection is on.
 
----
 
 ### Support
 
 If you encounter any issues or have any questions, please contact us at support@openweatherapp.com.
+
+
+---
 
 ### Note
 
