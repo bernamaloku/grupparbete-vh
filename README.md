@@ -31,7 +31,7 @@ Inside the "label" element, there are three "span" elements, these "span" elemen
               <span></span>
               <span></span>
             </label>
-            ```
+```
 
 
 
