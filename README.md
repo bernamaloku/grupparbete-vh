@@ -91,8 +91,6 @@ let weather = {
 
 ### Mock Up 
 
-<img width="200">
-
 ![mockupfinished](https://user-images.githubusercontent.com/106542048/213654921-bc9ead8c-e3a1-4b31-b8db-332cb6cb1fe3.png)
 
 
